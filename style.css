@@ -1,0 +1,83 @@
+body {
+    margin: 0;
+}
+
+header {
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    padding: 10px 16px;
+    display: flex;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+
+header md-filled-button {
+    height: 2rem;
+}
+
+header img {
+    width: 4rem;
+    height: 4rem;
+}
+
+.footer{
+    background-color: lightgray;
+    border-radius: 15px 15px 0px 0px;
+
+    position: relative;
+    bottom: 0;
+    padding: 2rem;
+    margin-left: 2rem;
+    margin-right: 2rem;
+    left: 0;
+    right: 0;
+}
+
+#main{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.main-container-left {
+    width: 50%;
+    padding: 2rem;
+    padding-top: 4rem;
+    font-family: "Ubuntu", sans-serif;
+}
+
+.main-container-left h1 {
+    font-weight: 300;
+    font-style: normal;
+    font-size: 3rem;
+}
+
+.main-container-left h2 {
+    font-weight: 400;
+    font-style: normal;
+    text-align: justify;
+    color: lightgrey;
+}
+
+.main-container-buttons {
+    display: flex;
+    align-items: center;
+    margin: 0;
+}
+
+.main-container-buttons md-outlined-text-field {
+    width: 100%;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+.main-container-right{
+    width: 50%;
+}
+
+.main-container-right img{
+    padding: 6rem;
+}

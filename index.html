@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+    <script type="importmap">
+    {
+      "imports": {
+        "@material/web/": "https://esm.run/@material/web/"
+      }
+    }
+  </script>
+    <script type="module">
+        import '@material/web/all.js';
+        import { styles as typescaleStyles } from '@material/web/typography/md-typescale-styles.js';
+
+        document.adoptedStyleSheets.push(typescaleStyles.styleSheet);
+    </script>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap"
+        rel="stylesheet">
+
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+</head>
+
+<body>
+
+    <header>
+        <img src="waves.png" />
+        <md-filled-button
+        onclick="document.getElementById('main').scrollIntoView();"
+        >Get early access</md-filled-button>
+    </header>
+
+    <section id="main">
+        <div class="main-container-left">
+            <h1>Lorem ipsum dolor sit amet, consectetur adipiscing elit
+                pulvinar ut est. <b>Curabitur auctor nibh nulla</b></h1>
+            <h2>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam maximus fermentum nibh ac imperdiet.
+                Curabitur pharetra elit egestas dolor suscipit, vitae lobortis ante efficitur. Nunc vitae consequat
+                mauris. Fusce pharetra turpis nec consectetur semper. Curabitur dignissim pellentesque leo, sit amet
+                tincidunt massa facilisis at. Nam consequat tellus nunc, a semper magna porttitor imperdiet. In sagittis
+                ligula ut e</h2>
+                <div class="main-container-buttons">
+                    <md-outlined-text-field placeholder="Your email address">
+                        <span class="material-icons md-18" slot="leading-icon">email</span>
+                    </md-outlined-text-field>
+
+                    <md-filled-button>Get early access</md-filled-button>
+                </div>
+            
+        </div> 
+        <div class="main-container-right">
+            <img src="homescreen.png"/>
+        </div>
+    </section>
+
+    <section id="screenshots">
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer quis tempor nulla, quis consectetur odio. Etiam justo velit, porttitor ut quam at, accumsan fringilla quam. Vivamus ut venenatis ligula. Nam porta purus non leo convallis rhoncus. Nullam in elit ex. Integer faucibus hendrerit dui id porta. Ut porta sem eget ex vehicula finibus. Etiam hendrerit mattis blandit. Nullam efficitur mattis nibh nec imperdiet. Morbi a scelerisque lacus. Sed consequat libero sit amet tincidunt dictum. Vestibulum tempor augue volutpat lacus feugiat suscipit sed vestibulum dui. Suspendisse vel euismod eros, et consequat velit. Nullam commodo augue et aliquet iaculis.
+
+            Ut scelerisque ligula id pulvinar hendrerit. Duis id porttitor velit, quis rhoncus velit. Quisque convallis interdum est non consectetur. Donec porttitor sem quis nibh feugiat venenatis. In accumsan accumsan ipsum id facilisis. Integer felis nibh, scelerisque ac malesuada vel, commodo et libero. Nulla id tristique leo.
+            
+            Cras malesuada lacinia dui nec sagittis. Donec orci eros, sodales ac posuere nec, accumsan ac sem. Pellentesque ipsum erat, dapibus vel pulvinar vel, scelerisque at mauris. Aliquam nec iaculis est, et faucibus odio. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Ut ac mauris eu enim consequat pellentesque. Curabitur at rhoncus metus, eget scelerisque odio. Interdum et malesuada fames ac ante ipsum primis in faucibus. Nullam tempor iaculis metus, ut elementum odio sollicitudin non. Sed elementum imperdiet pellentesque.
+            
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean molestie dapibus mi sed scelerisque. Nunc libero lorem, laoreet a mauris ac, feugiat viverra lacus. Fusce non nisl accumsan, tincidunt mauris vel, aliquam nibh. Sed suscipit nibh diam, eget tempor lorem consequat eget. Nam tincidunt id libero et rutrum. Maecenas in erat sodales, pellentesque ipsum lacinia, rhoncus augue. Maecenas lectus nulla, molestie non diam luctus, gravida volutpat massa. Nam ultricies malesuada purus. Cras eu tortor odio. Sed tempor, augue aliquam efficitur blandit, tortor quam placerat odio, ut egestas felis nisi a turpis. Pellentesque turpis leo, venenatis at rutrum eu, malesuada nec nulla. Nulla lacinia ipsum justo, eget cursus nisl volutpat sit amet. Duis a nibh vel libero fringilla ultrices hendrerit id felis. Donec malesuada nibh sed efficitur feugiat. Nulla in rutrum nulla.
+            
+            Fusce eu nisl quis eros elementum tristique. Aenean sapien risus, bibendum ac pretium eget, accumsan at sem. Donec vestibulum nisi non lacus luctus euismod. Fusce quis risus eget augue suscipit bibendum. Donec feugiat eu dolor sed fringilla. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Sed lobortis, diam eget imperdiet pretium, sem purus consequat tellus, eu maximus est ligula a risus. Cras mollis erat est, ac vestibulum urna vehicula ac. Maecenas felis tortor, semper sed faucibus nec, luctus ac turpis. Mauris commodo luctus lectus, eleifend luctus sapien ultricies efficitur.
+            
+            Generated 5 paragraphs, 451 words, 3053 bytes of Lorem Ipsum
+            help@lipsum.com
+            Privacy Policy · Privacy Preferences
+            
+            </p>
+    </section>
+
+    <section class="footer">
+        Testing footer
+    </footer>
+
+</body>
+
+</html>
